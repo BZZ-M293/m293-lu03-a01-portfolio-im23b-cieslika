@@ -1,19 +1,126 @@
 <!DOCTYPE html>
 <html lang='de'>
-  <head>
-    <meta charset='UTF-8'>
-    <title>LU03.A01 - Portfolio</title>
-  </head>
-  <body>
-    Fügen Sie hier ein Bild von sich ein
-  
-    Namen und Vornamen
-    Adresse
-    
-    Beschreibung über Sie
-    
-    Hobbyliste
-    
-    Links zu Social-Media Plattformen
-  </body>
+<head>
+  <meta charset='UTF-8'>
+  <title>LU03.A01 - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+      body{
+          font-family: "Roboto", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(198,198,198,1) 100%);
+      }
+      .image {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          height: 100%;
+
+      }
+
+      .main_content {
+          position: absolute;
+          left: 550px;
+          top: 50%;
+      }
+
+      .profile {
+          position: fixed;
+          top: 50%;
+          left: 0px;
+          transform: translate(0px, -50%);
+          border-radius: 50%;
+          border: solid black 10px;
+          box-shadow: gray 20px 20px;
+      }
+
+      a
+      {
+          transition-duration: 500ms;
+          font-size: 1vmax;
+      }
+
+      a:hover
+      {
+          filter: blur(5px);
+      }
+
+      footer {
+          position: fixed;
+          bottom: 0px;
+          left: 0px;
+      }
+  </style>
+</head>
+<body>
+<main>
+  <section class="image">
+    <img class="profile" alt="Mein portraifoto" width="500" src="https://thispersondoesnotexist.com/"></img>
+  </section>
+  <section class="main_content">
+    <article>
+      <section>
+        <h1>Meine Personalien</h1>
+        <p>
+          Gustafsson Nadine<br>
+          ul. Augustowska 100<br>
+          15-218 Białystok
+        </p>
+      </section>
+      <section>
+        <h1>Noch etwas über mich</h1>
+        <p>
+          Ich bin 17 Februar 1947 Geboren und arbeite als Radio Moderator
+        </p>
+      </section>
+    </article>
+    <article>
+      <h1>Meine hobbys</h1>
+      <ul>
+        <li>Zeichnen</li>
+        <li>Musik</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+        <li>Kochen</li>
+      </ul>
+    </article>
+    <article>
+      <h1>Mein Lieblingsessen Rangliste
+      </h1>
+      <ol>
+        <li>Pizza</li>
+        <li>Lasagne</li>
+        <li>Eiscreme</li>
+      </ol>
+    </article>
+  </section>
+</main>
+<footer>
+  <nav>
+    <a href="https://mobile.twitter.com/nadinegustavson">Twitter
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+           viewBox="0 0 16 16">
+        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+      </svg>
+    </a>
+  </nav>
+</footer>
+</body>
 </html>
